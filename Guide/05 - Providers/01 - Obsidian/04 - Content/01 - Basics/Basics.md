@@ -3,12 +3,12 @@ status: Draft
 description: Headings, paragraphs, lists, inline formatting, links, and more.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c94839fe27db6bad7a6533540f076
-"[d42] position": 32768
-"[d42] published title": Basics
-"[d42] published slug": basics-t15baju8k
-"[d42] published on": 1772192554221
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c94839fe27db6bad7a6533540f076
+"[draftist] position": 32768
+"[draftist] published title": Basics
+"[draftist] published slug": basics-t15baju8k
+"[draftist] published on": 1772192554221
 ---
 All the standard Markdown you know and love works out of the box. Here's a quick rundown. ^f1cc95
 
@@ -36,7 +36,7 @@ You can nest these too: `**_bold italic_**` → **_bold italic_**. ^afe20f
 Standard Markdown links — nothing fancy: ^c2c055
 
 ```md
-[Draft42](https://draft42.io)
+[Draftist](https://draftist.io)
 ```
 ^293cc3
 
@@ -51,7 +51,7 @@ Link to other pages on your site using the same standard Markdown: ^0ba30b
 ^4932c4
 
 > [!warning]
-> Draft42 requires standard Markdown links, not `[[wiki-link]]` syntax. Make sure "Use \[\[Wikilinks\]\]" is turned off in Obsidian's settings (Settings → Files and links).
+> Draftist requires standard Markdown links, not `[[wiki-link]]` syntax. Make sure "Use \[\[Wikilinks\]\]" is turned off in Obsidian's settings (Settings → Files and links).
 ^8ab0f8
 
 The plugin resolves internal links during publishing and checks that target pages exist. Deep links (using `#^block-id`) point straight to a specific element on the page. ^20e84e

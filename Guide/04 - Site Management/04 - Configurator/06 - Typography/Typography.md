@@ -3,12 +3,12 @@ status: Draft
 description: Fonts and text settings.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a6aa83e77aa94582d04896c3e17
-"[d42] position": 196608
-"[d42] published title": Typography
-"[d42] published slug": typography-jxaxpid86
-"[d42] published on": 1772184138204
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a6aa83e77aa94582d04896c3e17
+"[draftist] position": 196608
+"[draftist] published title": Typography
+"[draftist] published slug": typography-jxaxpid86
+"[draftist] published on": 1772184138204
 ---
 The Typography section controls the fonts used across your site. There are three font faces: ^52f6f1
 

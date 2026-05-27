@@ -3,12 +3,12 @@ status: Draft
 description: Building structured documentation sites with the Obsidian plugin.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9464add5765f97653f77cd5a00f5
-"[d42] position": 65536
-"[d42] published title": Docs
-"[d42] published slug": docs-kbfv0qdbc
-"[d42] published on": 1772192011896
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9464add5765f97653f77cd5a00f5
+"[draftist] position": 65536
+"[draftist] published title": Docs
+"[draftist] published slug": docs-kbfv0qdbc
+"[draftist] published on": 1772192011896
 ---
 > [!warning]
 > The Docs module is currently in private beta.
@@ -76,7 +76,7 @@ Each page lives in its own folder — the markdown file and all its assets are k
 
 ## Creating a Page ^fa00cf
 
-Open the command palette (`Ctrl/Cmd + P`) and run `Draft42: Create new doc page`. Pick a location in the tree, enter a title and description, and the plugin creates the folder with the correct prefix and a note with pre-filled frontmatter. ^a784f6
+Open the command palette (`Ctrl/Cmd + P`) and run `Draftist: Create new doc page`. Pick a location in the tree, enter a title and description, and the plugin creates the folder with the correct prefix and a note with pre-filled frontmatter. ^a784f6
 
 You can also right-click a folder in the file explorer and use either "Add page before", "Add page after", or "Add child page". ^48b532
 
@@ -85,7 +85,7 @@ You can also right-click a folder in the file explorer and use either "Add page 
 - **Inline images** — embed images directly in your page body. See [Images](Guide/05%20-%20Providers/01%20-%20Obsidian/04%20-%20Content/02%20-%20Images/Images.md) for details. ^8707c1
 - **Galleries** — display a collection of images in a grid layout. See [Galleries](Guide/05%20-%20Providers/01%20-%20Obsidian/04%20-%20Content/02%20-%20Images/Images.md#^54b1c5) for details. ^9f3440
 
-All images are stored in the page's `images/` subfolder — the plugin handles this automatically when you add assets via the provided commands. If you've added images manually or they ended up outside the `images/` folder, run `Draft42: Normalize images` to reorganize them into the correct location with consistent filenames. ^1ce142
+All images are stored in the page's `images/` subfolder — the plugin handles this automatically when you add assets via the provided commands. If you've added images manually or they ended up outside the `images/` folder, run `Draftist: Normalize images` to reorganize them into the correct location with consistent filenames. ^1ce142
 
 ## Frontmatter ^0b180b
 
@@ -102,16 +102,16 @@ Here are the frontmatter fields the plugin manages: ^316bbb
 ^d7390d
 
 > [!tip]
-> If you created a note manually or its frontmatter looks out of order, run `Draft42: Normalize frontmatter`. It sorts all properties into a consistent order and adds any missing fields.
+> If you created a note manually or its frontmatter looks out of order, run `Draftist: Normalize frontmatter`. It sorts all properties into a consistent order and adds any missing fields.
 ^177ecf
 
 > [!warning]
-> The plugin also stores internal metadata in fields prefixed with `[d42]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's sync state and cause publishing issues.
+> The plugin also stores internal metadata in fields prefixed with `[draftist]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's sync state and cause publishing issues.
 ^02f8b4
 
 ## Publishing ^8d60dc
 
-When you're ready, run [`Draft42: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your page and opens it in your browser on your site's preview domain so you can check it out before making it public. ^5a7633
+When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your page and opens it in your browser on your site's preview domain so you can check it out before making it public. ^5a7633
 
 > [!warning]
 > If you use other third-party Obsidian plugins, the Obsidian team [recommends](https://help.obsidian.md/plugins/web-viewer#Security) using your primary browser for sensitive tasks and websites that require login instead of the web viewer for security reasons.

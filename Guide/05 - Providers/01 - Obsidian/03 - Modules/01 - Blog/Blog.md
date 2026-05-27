@@ -3,12 +3,12 @@ status: Draft
 description: Writing and managing blog posts with the Obsidian plugin.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c93e2ad2e763eb8eae5c8d3d01a2e
-"[d42] position": 32768
-"[d42] published title": Blog
-"[d42] published slug": blog-20z7s2jqr
-"[d42] published on": 1772193486417
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c93e2ad2e763eb8eae5c8d3d01a2e
+"[draftist] position": 32768
+"[draftist] published title": Blog
+"[draftist] published slug": blog-20z7s2jqr
+"[draftist] published on": 1772193486417
 ---
 The Blog module is your date-sorted feed — articles, updates, announcements, whatever you want to share. ^9f828f
 
@@ -19,7 +19,7 @@ The Blog module is your date-sorted feed — articles, updates, announcements, w
 - **Description**
   A short summary set in the `description` field of the frontmatter. It doesn't appear in the post body itself, but it shows up everywhere else: in the list of posts on your site, in search engine results, and in social media previews when someone shares your link. A good description makes your publication look polished and helps readers decide whether to click through — don't skip it! ^9d1ac8
 - **Cover**
-  An optional image is displayed at the top of the post, in post listings, and used as an OG image. Can be a vault image or an external URL. Although we highly recommend using internal images. Use [`Draft42: Set cover image` command](Commands.md#^ae2d61) to set it, with optional credit text and link for attribution. ^86d3cf
+  An optional image is displayed at the top of the post, in post listings, and used as an OG image. Can be a vault image or an external URL. Although we highly recommend using internal images. Use [`Draftist: Set cover image` command](Commands.md#^ae2d61) to set it, with optional credit text and link for attribution. ^86d3cf
 - **Body**
   Everything below the frontmatter. See the [Content](Content.md) section for formatting, images, code blocks, and other supported elements. ^e51e7e
 
@@ -74,18 +74,18 @@ Post Title/
 
 Open the command palette (`Ctrl/Cmd + P`) and run one of: ^f06edb
 
-- `Draft42: Create new blog post idea` — creates a post with `Idea` status ^e6fde4
-- `Draft42: Create new blog post draft` — creates a post with `Draft` status ^8ad7e3
+- `Draftist: Create new blog post idea` — creates a post with `Idea` status ^e6fde4
+- `Draftist: Create new blog post draft` — creates a post with `Draft` status ^8ad7e3
 
 The plugin asks for a title and description, then creates a note with pre-filled frontmatter. ^ecf348
 
 ### Adding Images ^8f9413
 
-- **Cover image** — run `Draft42: Set cover image` to pick a vault image or paste an external URL. You can optionally add credit text and a link for attribution. The cover appears at the top of the post, in post listings, and is used as an OG image. ^adbffc
+- **Cover image** — run `Draftist: Set cover image` to pick a vault image or paste an external URL. You can optionally add credit text and a link for attribution. The cover appears at the top of the post, in post listings, and is used as an OG image. ^adbffc
 - **Inline images** — embed images directly in your post body. See [Images](Guide/05%20-%20Providers/01%20-%20Obsidian/04%20-%20Content/02%20-%20Images/Images.md) for details. ^4d2c07
 - **Galleries** — display a collection of images in a grid layout. See [Galleries](Guide/05%20-%20Providers/01%20-%20Obsidian/04%20-%20Content/02%20-%20Images/Images.md#^54b1c5) for details. ^5bcf7f
 
-All images are stored in the post's `images/` subfolder — the plugin handles this automatically when you add assets via the provided commands. If you've added images manually or they ended up outside the `images/` folder, run [`Draft42: Normalize images` command](Commands.md#^70f98b) to reorganize them into the correct location with consistent filenames. ^7d959f
+All images are stored in the post's `images/` subfolder — the plugin handles this automatically when you add assets via the provided commands. If you've added images manually or they ended up outside the `images/` folder, run [`Draftist: Normalize images` command](Commands.md#^70f98b) to reorganize them into the correct location with consistent filenames. ^7d959f
 
 ## Frontmatter ^b0809b
 
@@ -104,16 +104,16 @@ Here are the frontmatter fields the plugin manages: ^5a79f9
 ^973a1f
 
 > [!tip]
-> If you created a note manually or its frontmatter looks out of order, run `Draft42: Normalize frontmatter`. It sorts all properties into a consistent order and adds any missing fields.
+> If you created a note manually or its frontmatter looks out of order, run `Draftist: Normalize frontmatter`. It sorts all properties into a consistent order and adds any missing fields.
 ^5ba19d
 
 > [!warning]
-> The plugin also stores internal metadata in fields prefixed with `[d42]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's sync state and cause publishing issues.
+> The plugin also stores internal metadata in fields prefixed with `[draftist]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's sync state and cause publishing issues.
 ^c9dda9
 
 ## Publishing ^01f896
 
-When you're ready, run [`Draft42: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your post and opens it in your browser on your site's preview domain so you can check it out before making it public. ^c1d874
+When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your post and opens it in your browser on your site's preview domain so you can check it out before making it public. ^c1d874
 
 > [!warning]
 > If you use other third-party Obsidian plugins, the Obsidian team [recommends](https://help.obsidian.md/plugins/web-viewer#Security) using your primary browser for sensitive tasks and websites that require login instead of the web viewer for security reasons.

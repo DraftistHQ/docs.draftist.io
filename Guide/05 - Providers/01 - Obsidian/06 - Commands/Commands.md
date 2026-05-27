@@ -1,16 +1,16 @@
 ---
 status: Draft
-description: All Draft42 commands available in Obsidian.
+description: All Draftist commands available in Obsidian.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9b402fa67d82af5534b6f526c7e2
-"[d42] position": 163840
-"[d42] published title": Commands
-"[d42] published slug": commands-e3ue59002
-"[d42] published on": 1772193355865
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9b402fa67d82af5534b6f526c7e2
+"[draftist] position": 163840
+"[draftist] published title": Commands
+"[draftist] published slug": commands-e3ue59002
+"[draftist] published on": 1772193355865
 ---
-All Draft42 commands are available through Obsidian's command palette (summoned via `Ctrl/Cmd + P`). Some are also accessible via the file explorer context menu. ^6a0daf
+All Draftist commands are available through Obsidian's command palette (summoned via `Ctrl/Cmd + P`). Some are also accessible via the file explorer context menu. ^6a0daf
 
 ## Content ^ca7043
 

@@ -3,12 +3,12 @@ status: Draft
 description: Social media links displayed on your site.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a6a8fe17f5ca092675490b18f5d
-"[d42] position": 163840
-"[d42] published title": Links
-"[d42] published slug": links-mpv2xgj0b
-"[d42] published on": 1772184081969
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a6a8fe17f5ca092675490b18f5d
+"[draftist] position": 163840
+"[draftist] published title": Links
+"[draftist] published slug": links-mpv2xgj0b
+"[draftist] published on": 1772184081969
 ---
 The Links section manages social media links displayed on your site. Supported platforms include X, GitHub, Facebook, Instagram, Discord, and more. ^827d3c
 

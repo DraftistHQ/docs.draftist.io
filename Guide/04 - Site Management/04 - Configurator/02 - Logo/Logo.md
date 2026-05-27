@@ -3,12 +3,12 @@ status: Draft
 description: Configuring your site's main logo.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a6a2bf17ee1af8b45377740e216
-"[d42] position": 65536
-"[d42] published title": Logo
-"[d42] published slug": logo-x9kc8w8sc
-"[d42] published on": 1772183691026
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a6a2bf17ee1af8b45377740e216
+"[draftist] position": 65536
+"[draftist] published title": Logo
+"[draftist] published slug": logo-x9kc8w8sc
+"[draftist] published on": 1772183691026
 ---
 The Logo section controls the main logo displayed in your site's header. You can use either text or an image. ^d019b6
 

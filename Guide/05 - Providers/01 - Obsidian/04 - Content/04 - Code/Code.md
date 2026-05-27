@@ -3,12 +3,12 @@ status: Draft
 description: Syntax-highlighted code blocks with filenames, line highlighting, and captions.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c94ef4f457aa0bec98d222cf4225a
-"[d42] position": 131072
-"[d42] published title": Code
-"[d42] published slug": code-hz8xug3dc
-"[d42] published on": 1772193223178
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c94ef4f457aa0bec98d222cf4225a
+"[draftist] position": 131072
+"[draftist] published title": Code
+"[draftist] published slug": code-hz8xug3dc
+"[draftist] published on": 1772193223178
 ---
 Use fenced code blocks with a language identifier for syntax highlighting: ^c1ec01
 

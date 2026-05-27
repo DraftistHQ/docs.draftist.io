@@ -3,14 +3,14 @@ status: Draft
 description: How URLs are built from your content titles.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c99d21f14766c9a226134969a7c79
-"[d42] position": 163840
-"[d42] published title": Slugs
-"[d42] published slug": slugs-950ltk09g
-"[d42] published on": 1772182902050
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c99d21f14766c9a226134969a7c79
+"[draftist] position": 163840
+"[draftist] published title": Slugs
+"[draftist] published slug": slugs-950ltk09g
+"[draftist] published on": 1772182902050
 ---
-A slug is the URL-friendly part of a content address. Draft42 generates one automatically from the title, or you can set a custom slug if you like. ^1d9a6b
+A slug is the URL-friendly part of a content address. Draftist generates one automatically from the title, or you can set a custom slug if you like. ^1d9a6b
 
 ## Structure ^2e1b7c
 

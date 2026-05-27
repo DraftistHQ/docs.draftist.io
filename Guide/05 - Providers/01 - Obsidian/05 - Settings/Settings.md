@@ -3,21 +3,21 @@ status: Draft
 description: Plugin settings and what they do.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9f11035e76afa924787030c5bf8d
-"[d42] position": 147456
-"[d42] published title": Settings
-"[d42] published slug": settings-uk45m1cnu
-"[d42] published on": 1772195362574
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9f11035e76afa924787030c5bf8d
+"[draftist] position": 147456
+"[draftist] published title": Settings
+"[draftist] published slug": settings-uk45m1cnu
+"[draftist] published on": 1772195362574
 ---
-The Draft42 plugin settings are accessible through Obsidian's Settings → Community Plugins → Draft42. Settings are organized into several sections. ^836a1d
+The Draftist plugin settings are accessible through Obsidian's Settings → Community Plugins → Draftist. Settings are organized into several sections. ^836a1d
 
 ## Authentication ^8884f9
 
-- **Token** — your Draft42 API token, stored securely in Obsidian's secret storage. ^afc3d7
+- **Token** — your Draftist API token, stored securely in Obsidian's secret storage. ^afc3d7
 
 > [!info]
-> Manage API tokens at [Draft42](https://draft42.io/manage/account/security/tokens).
+> Manage API tokens at [Draftist](https://draftist.io/manage/account/security/tokens).
 ^5edf9b
 
 ## Sites ^767ab4
@@ -31,7 +31,7 @@ Lists all sites associated with your account. For each site, you can: ^6ea3ad
 > If your vault is dedicated to a single site, you can set `/` as the folder path to use the vault root directly instead of creating a subfolder.
 ^6aef28
 
-Use **Refresh sites** to pull the latest site list from Draft42 if you've made changes on the web. ^072132
+Use **Refresh sites** to pull the latest site list from Draftist if you've made changes on the web. ^072132
 
 ## Automations ^0feb78
 

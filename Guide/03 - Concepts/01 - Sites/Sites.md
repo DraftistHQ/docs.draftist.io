@@ -3,14 +3,14 @@ status: Draft
 description: What sites are and what they're made of.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9933391a7e929bb6895efb75c0c6
-"[d42] position": 32768
-"[d42] published title": Sites
-"[d42] published slug": sites-liwo9c81q
-"[d42] published on": 1772185887488
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9933391a7e929bb6895efb75c0c6
+"[draftist] position": 32768
+"[draftist] published title": Sites
+"[draftist] published slug": sites-liwo9c81q
+"[draftist] published on": 1772185887488
 ---
-A site is a Draft42-powered website. Each site has its own address, configuration, and content — you write in Obsidian, and Draft42 turns it into a live website. ^f290c9
+A site is a Draftist-powered website. Each site has its own address, configuration, and content — you write in Obsidian, and Draftist turns it into a live website. ^f290c9
 
 Every site comes with a [platform address](Guide/03%20-%20Concepts/02%20-%20Domains/Domains.md#^4b8d7e) based on your username, and you can hook up a [custom domain](Guide/03%20-%20Concepts/02%20-%20Domains/Domains.md#^8f3c2d) on top. ^0a9ec9
 

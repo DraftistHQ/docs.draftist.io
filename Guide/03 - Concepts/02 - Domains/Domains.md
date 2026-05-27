@@ -3,14 +3,14 @@ status: Draft
 description: Platform addresses, custom domains, and DNS setup.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c99d265cd726180ff75827ef0048b
-"[d42] position": 49152
-"[d42] published title": Domains
-"[d42] published slug": domains-ajx2ma539
-"[d42] published on": 1772185914160
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c99d265cd726180ff75827ef0048b
+"[draftist] position": 49152
+"[draftist] published title": Domains
+"[draftist] published slug": domains-ajx2ma539
+"[draftist] published on": 1772185914160
 ---
-Every site needs a web address. Draft42 gives you one automatically, and you can add your own custom domain on top. ^3a7c6d
+Every site needs a web address. Draftist gives you one automatically, and you can add your own custom domain on top. ^3a7c6d
 
 ## Platform address ^4b8d7e
 
@@ -18,8 +18,8 @@ You get a platform address based on your username: ^5c9e8f
 
 | Site | Address |
 | ---- | ------- |
-| Primary site | `username.draft42.io` |
-| Additional sites | `username.draft42.io/~/handle` |
+| Primary site | `username.draftist.io` |
+| Additional sites | `username.draftist.io/~/handle` |
 ^6d1a9b
 
 This works out of the box — no setup needed. ^7e2b1c

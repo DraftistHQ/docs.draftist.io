@@ -4,12 +4,12 @@ description: Customizing your site's appearance, branding, and metadata.
 posted on: ""
 tags: []
 collapsed: true
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a169f8479018b675fc3529716d6
-"[d42] position": 98304
-"[d42] published title": Configurator
-"[d42] published slug": configurator-lfdsplff0
-"[d42] published on": 1772183578872
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a169f8479018b675fc3529716d6
+"[draftist] position": 98304
+"[draftist] published title": Configurator
+"[draftist] published slug": configurator-lfdsplff0
+"[draftist] published on": 1772183578872
 ---
 The site configurator is where you customize how your site looks and feels. It's split into two panels: configuration sections on the left, and a live preview of your site on the right. Changes show up in the preview as you make them. ^0e7221
 

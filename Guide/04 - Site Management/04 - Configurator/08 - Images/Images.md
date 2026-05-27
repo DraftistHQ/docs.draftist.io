@@ -3,12 +3,12 @@ status: Draft
 description: Content images settings.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a6aff1c7f41a6d74e5b2ac49556
-"[d42] position": 262144
-"[d42] published title": Images
-"[d42] published slug": images-6m05708v5
-"[d42] published on": 1772184255767
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a6aff1c7f41a6d74e5b2ac49556
+"[draftist] position": 262144
+"[draftist] published title": Images
+"[draftist] published slug": images-6m05708v5
+"[draftist] published on": 1772184255767
 ---
 The Images section controls what visitors see while images are loading. ^98dd95
 

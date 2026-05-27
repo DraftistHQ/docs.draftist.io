@@ -3,14 +3,14 @@ status: Draft
 description: Embedding images, controlling layout, and creating galleries.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c94d1a439795dba036d947ef606da
-"[d42] position": 65536
-"[d42] published title": Images
-"[d42] published slug": images-0efwwejjn
-"[d42] published on": 1772193090670
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c94d1a439795dba036d947ef606da
+"[draftist] position": 65536
+"[draftist] published title": Images
+"[draftist] published slug": images-0efwwejjn
+"[draftist] published on": 1772193090670
 ---
-The easiest way to add images is with the `Draft42: Insert image` command. Pick an image, set a caption and placement, and the plugin copies it to the right spot with a clean filename. The result is standard Markdown: ^0ca026
+The easiest way to add images is with the `Draftist: Insert image` command. Pick an image, set a caption and placement, and the plugin copies it to the right spot with a clean filename. The result is standard Markdown: ^0ca026
 
 ```md
 ![Optional caption text](images/post-photo.a1b2c3d4.jpg)
@@ -65,7 +65,7 @@ You can use external URLs instead of vault images: ^3cddff
 
 ## Galleries ^54b1c5
 
-Want to show multiple images together? Use the `Draft42: Insert gallery` command — pick your images, add an optional caption, and the plugin handles the rest. It uses the `[!GALLERY]` callout syntax: ^36cc39
+Want to show multiple images together? Use the `Draftist: Insert gallery` command — pick your images, add an optional caption, and the plugin handles the rest. It uses the `[!GALLERY]` callout syntax: ^36cc39
 
 ```md
 > [!GALLERY] Optional caption

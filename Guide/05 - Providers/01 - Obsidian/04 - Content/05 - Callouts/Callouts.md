@@ -3,12 +3,12 @@ status: Draft
 description: Callouts for highlighting important information, and blockquotes for quotations.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9521d2be77caa1feec2046bed8e2
-"[d42] position": 163840
-"[d42] published title": Callouts
-"[d42] published slug": callouts-52ak954te
-"[d42] published on": 1772193301142
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9521d2be77caa1feec2046bed8e2
+"[draftist] position": 163840
+"[draftist] published title": Callouts
+"[draftist] published slug": callouts-52ak954te
+"[draftist] published on": 1772193301142
 ---
 Callouts are colored boxes that highlight important information. Blockquotes are for quotations. ^89afdc
 

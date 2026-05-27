@@ -3,12 +3,12 @@ status: Draft
 description: Adding custom domains, DNS setup, and managing your site's address.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a6728be7a9683a228f44918f329
-"[d42] position": 32768
-"[d42] published title": Domains
-"[d42] published slug": domains-8ljt1nos4
-"[d42] published on": 1772183255141
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a6728be7a9683a228f44918f329
+"[draftist] position": 32768
+"[draftist] published title": Domains
+"[draftist] published slug": domains-8ljt1nos4
+"[draftist] published on": 1772183255141
 ---
 The domains page lists all addresses for your site — your platform address and any custom domains you've added. From here, you can add new domains, check verification status, and choose which address is primary. ^1f7fec
 

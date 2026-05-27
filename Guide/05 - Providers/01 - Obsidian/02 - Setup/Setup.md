@@ -1,22 +1,22 @@
 ---
 status: Draft
-description: Connect the Draft42 plugin to your account and configure your vault.
+description: Connect the Draftist plugin to your account and configure your vault.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c8fcd8eae7f9d8c06facebea0f9dd
-"[d42] position": 65536
-"[d42] published title": Setup
-"[d42] published slug": setup-tgr6qth85
-"[d42] published on": 1772189627285
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c8fcd8eae7f9d8c06facebea0f9dd
+"[draftist] position": 65536
+"[draftist] published title": Setup
+"[draftist] published slug": setup-tgr6qth85
+"[draftist] published on": 1772189627285
 ---
-After installing the plugin, open its settings in Obsidian (Settings → Draft42). You'll see a setup wizard that walks you through the initial configuration. ^0c85f4
+After installing the plugin, open its settings in Obsidian (Settings → Draftist). You'll see a setup wizard that walks you through the initial configuration. ^0c85f4
 
 ## Add Auth Token ^60976d
 
 1. In the setup wizard, click "Get Started". ^cbf0a6
-2. On the API Token step, click "Get token" — this opens the Draft42 page where you can copy your token. ^2ac435
-3. Back in Obsidian, click "Link..." to create an Obsidian secret and paste your token. You can name the secret anything you like (e.g., "Draft42 Token") — it's just a label to identify it among your other Obsidian secrets. ^187330
+2. On the API Token step, click "Get token" — this opens the Draftist page where you can copy your token. ^2ac435
+3. Back in Obsidian, click "Link..." to create an Obsidian secret and paste your token. You can name the secret anything you like (e.g., "Draftist Token") — it's just a label to identify it among your other Obsidian secrets. ^187330
 4. Click "Next" — the plugin will verify your token and fetch your sites. ^af3b85
 
 > [!INFO]
@@ -25,7 +25,7 @@ After installing the plugin, open its settings in Obsidian (Settings → Draft42
 
 ## Configure Sites ^2d2bc9
 
-Next, the wizard will show your Draft42 sites. For each site you want to manage from this vault: ^788ec0
+Next, the wizard will show your Draftist sites. For each site you want to manage from this vault: ^788ec0
 
 1. Enter a **folder path** — this is where your site's content will live in the vault (e.g., `My Website`). The folder will be created if it doesn't exist. ^31491d
 2. If you have multiple sites, uncheck any you don't want to manage in this vault. ^53f345

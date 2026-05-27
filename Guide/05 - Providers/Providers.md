@@ -3,10 +3,10 @@ status: Draft
 description:
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c8fb18a137025b03183b938877c06
-"[d42] position": 131072
-"[d42] published title": Providers
-"[d42] published slug": providers-kcp6nax0k
-"[d42] published on": 1771937301916
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c8fb18a137025b03183b938877c06
+"[draftist] position": 131072
+"[draftist] published title": Providers
+"[draftist] published slug": providers-kcp6nax0k
+"[draftist] published on": 1771937301916
 ---

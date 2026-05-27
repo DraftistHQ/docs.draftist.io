@@ -3,12 +3,12 @@ status: Draft
 description: Color schemes, light/dark mode, and overrides.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c9a6ac9ca7736af98790f6ef5fec9
-"[d42] position": 229376
-"[d42] published title": Colors
-"[d42] published slug": colors-p0lze509z
-"[d42] published on": 1772184207515
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c9a6ac9ca7736af98790f6ef5fec9
+"[draftist] position": 229376
+"[draftist] published title": Colors
+"[draftist] published slug": colors-p0lze509z
+"[draftist] published on": 1772184207515
 ---
 The Colors section controls your site's color scheme and light/dark mode behavior. ^3d03c3
 

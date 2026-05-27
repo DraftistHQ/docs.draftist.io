@@ -3,12 +3,12 @@ status: Draft
 description: GFM-style tables with column alignment.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c952db40c7372a28446c5ac5b5090
-"[d42] position": 196608
-"[d42] published title": Tables
-"[d42] published slug": tables-htjalgwh6
-"[d42] published on": 1772193328180
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c952db40c7372a28446c5ac5b5090
+"[draftist] position": 196608
+"[draftist] published title": Tables
+"[draftist] published slug": tables-htjalgwh6
+"[draftist] published on": 1772193328180
 ---
 Standard GFM (GitHub Flavored Markdown) tables work out of the box: ^c021b7
 
@@ -58,7 +58,7 @@ Renders as: ^23a4d7
 
 ## Inline Formatting ^48430a
 
-Cells support all the usual inline formatting — **bold**, _italic_, ~~strikethrough~~, `inline code`, and [links](https://draft42.io): ^be88c8
+Cells support all the usual inline formatting — **bold**, _italic_, ~~strikethrough~~, `inline code`, and [links](https://draftist.io): ^be88c8
 
 ```md
 | Feature      | Status          |

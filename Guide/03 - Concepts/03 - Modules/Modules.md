@@ -3,12 +3,12 @@ status: Draft
 description: What modules are and how they shape your site.
 posted on: ""
 tags: []
-"[d42] content kind": DocPage
-"[d42] content id": 019c99d2499d7726835f896e71673ad4
-"[d42] position": 65536
-"[d42] published title": Modules
-"[d42] published slug": modules-fhl66wos2
-"[d42] published on": 1772185927282
+"[draftist] content kind": DocPage
+"[draftist] content id": 019c99d2499d7726835f896e71673ad4
+"[draftist] position": 65536
+"[draftist] published title": Modules
+"[draftist] published slug": modules-fhl66wos2
+"[draftist] published on": 1772185927282
 ---
 Modules are the building blocks of a [site](Sites.md). Each module adds a different content structure — you pick the ones that fit what you're publishing. ^a3c7d2
 
