@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: GFM-style tables with column alignment.
-posted on: ""
+posted on: 2026-02-27T15:36
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c952db40c7372a28446c5ac5b5090
 "[draftist] position": 196608
 "[draftist] published title": Tables
 "[draftist] published slug": tables-htjalgwh6
-"[draftist] published on": 1772193328180
+"[draftist] published on": 1779969366976
 ---
 Standard GFM (GitHub Flavored Markdown) tables work out of the box: ^c021b7
 

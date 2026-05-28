@@ -1,7 +1,7 @@
 ---
-status: Draft
+status: Published
 description: How content is organized into modules on your Draftist site.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 collapsed: true
 "[draftist] content kind": DocPage
@@ -9,7 +9,7 @@ collapsed: true
 "[draftist] position": 98304
 "[draftist] published title": Modules
 "[draftist] published slug": modules-wqm29gbo7
-"[draftist] published on": 1772192145395
+"[draftist] published on": 1779969238825
 ---
 Modules are the building blocks of your site. Each module represents a type of content — a blog, documentation, etc. You configure modules in your site settings on Draftist, giving each one a name and a URL slug. ^baeb68
 

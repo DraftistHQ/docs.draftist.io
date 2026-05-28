@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Building structured documentation sites with the Obsidian plugin.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9464add5765f97653f77cd5a00f5
 "[draftist] position": 65536
 "[draftist] published title": Docs
 "[draftist] published slug": docs-kbfv0qdbc
-"[draftist] published on": 1772192011896
+"[draftist] published on": 1779969222751
 ---
 > [!warning]
 > The Docs module is currently in private beta.

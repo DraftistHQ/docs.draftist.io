@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: What sites are and what they're made of.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9933391a7e929bb6895efb75c0c6
 "[draftist] position": 32768
 "[draftist] published title": Sites
 "[draftist] published slug": sites-liwo9c81q
-"[draftist] published on": 1772185887488
+"[draftist] published on": 1779968477598
 ---
 A site is a Draftist-powered website. Each site has its own address, configuration, and content — you write in Obsidian, and Draftist turns it into a live website. ^f290c9
 

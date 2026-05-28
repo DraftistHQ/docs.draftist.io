@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Color schemes, light/dark mode, and overrides.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9a6ac9ca7736af98790f6ef5fec9
 "[draftist] position": 229376
 "[draftist] published title": Colors
 "[draftist] published slug": colors-p0lze509z
-"[draftist] published on": 1772184207515
+"[draftist] published on": 1779969021028
 ---
 The Colors section controls your site's color scheme and light/dark mode behavior. ^3d03c3
 

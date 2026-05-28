@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Headings, paragraphs, lists, inline formatting, links, and more.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c94839fe27db6bad7a6533540f076
 "[draftist] position": 32768
 "[draftist] published title": Basics
 "[draftist] published slug": basics-t15baju8k
-"[draftist] published on": 1772192554221
+"[draftist] published on": 1779969257429
 ---
 All the standard Markdown you know and love works out of the box. Here's a quick rundown. ^f1cc95
 

@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Content images settings.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9a6aff1c7f41a6d74e5b2ac49556
 "[draftist] position": 262144
 "[draftist] published title": Images
 "[draftist] published slug": images-6m05708v5
-"[draftist] published on": 1772184255767
+"[draftist] published on": 1779969080546
 ---
 The Images section controls what visitors see while images are loading. ^98dd95
 

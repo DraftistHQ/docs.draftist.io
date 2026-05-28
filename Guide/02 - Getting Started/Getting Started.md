@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Getting Started
 "[draftist] published slug": getting-started-0kd7erv0j
-"[draftist] published on": 1772197822732
+"[draftist] published on": 1779968455223
 ---
 Here's the shortest path to getting your site up and running. ^552088
 

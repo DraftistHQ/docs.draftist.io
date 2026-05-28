@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Embedding images, controlling layout, and creating galleries.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c94d1a439795dba036d947ef606da
 "[draftist] position": 65536
 "[draftist] published title": Images
 "[draftist] published slug": images-0efwwejjn
-"[draftist] published on": 1772193090670
+"[draftist] published on": 1779969275299
 ---
 The easiest way to add images is with the `Draftist: Insert image` command. Pick an image, set a caption and placement, and the plugin copies it to the right spot with a clean filename. The result is standard Markdown: ^0ca026
 

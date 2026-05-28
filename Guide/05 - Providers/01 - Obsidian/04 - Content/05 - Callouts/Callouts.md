@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Callouts for highlighting important information, and blockquotes for quotations.
-posted on: ""
+posted on: 2026-02-27T15:36
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9521d2be77caa1feec2046bed8e2
 "[draftist] position": 163840
 "[draftist] published title": Callouts
 "[draftist] published slug": callouts-52ak954te
-"[draftist] published on": 1772193301142
+"[draftist] published on": 1779969351864
 ---
 Callouts are colored boxes that highlight important information. Blockquotes are for quotations. ^89afdc
 

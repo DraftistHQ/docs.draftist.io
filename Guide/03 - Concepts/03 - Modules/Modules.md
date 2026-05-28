@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: What modules are and how they shape your site.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c99d2499d7726835f896e71673ad4
 "[draftist] position": 65536
 "[draftist] published title": Modules
 "[draftist] published slug": modules-fhl66wos2
-"[draftist] published on": 1772185927282
+"[draftist] published on": 1779968514387
 ---
 Modules are the building blocks of a [site](Sites.md). Each module adds a different content structure — you pick the ones that fit what you're publishing. ^a3c7d2
 

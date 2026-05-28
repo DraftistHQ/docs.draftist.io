@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Connect the Draftist plugin to your account and configure your vault.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c8fcd8eae7f9d8c06facebea0f9dd
 "[draftist] position": 65536
 "[draftist] published title": Setup
 "[draftist] published slug": setup-tgr6qth85
-"[draftist] published on": 1772189627285
+"[draftist] published on": 1779969157163
 ---
 After installing the plugin, open its settings in Obsidian (Settings → Draftist). You'll see a setup wizard that walks you through the initial configuration. ^0c85f4
 

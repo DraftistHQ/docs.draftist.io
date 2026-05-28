@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Platform addresses, custom domains, and DNS setup.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c99d265cd726180ff75827ef0048b
 "[draftist] position": 49152
 "[draftist] published title": Domains
 "[draftist] published slug": domains-ajx2ma539
-"[draftist] published on": 1772185914160
+"[draftist] published on": 1779968492132
 ---
 Every site needs a web address. Draftist gives you one automatically, and you can add your own custom domain on top. ^3a7c6d
 

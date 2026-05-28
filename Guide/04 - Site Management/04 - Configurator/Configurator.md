@@ -1,7 +1,7 @@
 ---
-status: Draft
+status: Published
 description: Customizing your site's appearance, branding, and metadata.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 collapsed: true
 "[draftist] content kind": DocPage
@@ -9,7 +9,7 @@ collapsed: true
 "[draftist] position": 98304
 "[draftist] published title": Configurator
 "[draftist] published slug": configurator-lfdsplff0
-"[draftist] published on": 1772183578872
+"[draftist] published on": 1779969102858
 ---
 The site configurator is where you customize how your site looks and feels. It's split into two panels: configuration sections on the left, and a live preview of your site on the right. Changes show up in the preview as you make them. ^0e7221
 

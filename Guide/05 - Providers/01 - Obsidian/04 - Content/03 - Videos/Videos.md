@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Embedding videos in your content.
-posted on: ""
+posted on: 2026-02-27T15:36
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c94d8c27f795ab575faf6c5932194
 "[draftist] position": 98304
 "[draftist] published title": Videos
 "[draftist] published slug": videos-3sili94m5
-"[draftist] published on": 1772193131952
+"[draftist] published on": 1779969314360
 ---
 For now, Draftist supports only YouTube embeds. Internal video support is on the way. ^e094e0
 

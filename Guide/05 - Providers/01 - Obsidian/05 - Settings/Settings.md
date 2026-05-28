@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Plugin settings and what they do.
-posted on: ""
+posted on: 2026-02-27T15:36
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9f11035e76afa924787030c5bf8d
 "[draftist] position": 147456
 "[draftist] published title": Settings
 "[draftist] published slug": settings-uk45m1cnu
-"[draftist] published on": 1772195362574
+"[draftist] published on": 1779969398982
 ---
 The Draftist plugin settings are accessible through Obsidian's Settings → Community Plugins → Draftist. Settings are organized into several sections. ^836a1d
 

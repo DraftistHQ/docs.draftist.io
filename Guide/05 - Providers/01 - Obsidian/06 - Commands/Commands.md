@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: All Draftist commands available in Obsidian.
-posted on: ""
+posted on: 2026-02-27T15:36
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9b402fa67d82af5534b6f526c7e2
 "[draftist] position": 163840
 "[draftist] published title": Commands
 "[draftist] published slug": commands-e3ue59002
-"[draftist] published on": 1772193355865
+"[draftist] published on": 1779969413702
 ---
 All Draftist commands are available through Obsidian's command palette (summoned via `Ctrl/Cmd + P`). Some are also accessible via the file explorer context menu. ^6a0daf
 

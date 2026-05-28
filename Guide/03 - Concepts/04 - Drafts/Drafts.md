@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: The draft-first workflow — edit, preview, and go live.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c99d27c17795e9e3e3f2e7c494af3
 "[draftist] position": 131072
 "[draftist] published title": Drafts
 "[draftist] published slug": drafts-p89gllvrl
-"[draftist] published on": 1772182818614
+"[draftist] published on": 1779968531728
 ---
 Content and site configuration in Draftist use a draft-first workflow. You edit a draft, preview it, and push it live when you're ready. ^e8b7c4
 

@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Writing and managing blog posts with the Obsidian plugin.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c93e2ad2e763eb8eae5c8d3d01a2e
 "[draftist] position": 32768
 "[draftist] published title": Blog
 "[draftist] published slug": blog-20z7s2jqr
-"[draftist] published on": 1772193486417
+"[draftist] published on": 1779969173413
 ---
 The Blog module is your date-sorted feed — articles, updates, announcements, whatever you want to share. ^9f828f
 

@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Renaming modules and managing their URL slugs.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9a6768f072abb6b57e3bc55f0905
 "[draftist] position": 65536
 "[draftist] published title": Modules
 "[draftist] published slug": modules-kjqhj61dr
-"[draftist] published on": 1772183341928
+"[draftist] published on": 1779968617358
 ---
 The modules page lists all modules on your site. Each card shows the module type (Blog, Docs, etc.), its name, and its live URL. ^287f2c
 

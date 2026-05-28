@@ -1,7 +1,7 @@
 ---
-status: Draft
+status: Published
 description: Supported content elements and formatting in Draftist.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 collapsed: true
 "[draftist] content kind": DocPage
@@ -9,7 +9,7 @@ collapsed: true
 "[draftist] position": 131072
 "[draftist] published title": Content
 "[draftist] published slug": content-4z8tb65zm
-"[draftist] published on": 1772192457295
+"[draftist] published on": 1779969383822
 ---
 Draftist renders standard Markdown and adds a few extras. Just write in Obsidian — Draftist handles the rest. ^e1a152
 

@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Fonts and text settings.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9a6aa83e77aa94582d04896c3e17
 "[draftist] position": 196608
 "[draftist] published title": Typography
 "[draftist] published slug": typography-jxaxpid86
-"[draftist] published on": 1772184138204
+"[draftist] published on": 1779968706142
 ---
 The Typography section controls the fonts used across your site. There are three font faces: ^52f6f1
 

@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: Configuring your site's main logo.
-posted on: ""
+posted on: 2026-02-27T15:34
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c9a6a2bf17ee1af8b45377740e216
 "[draftist] position": 65536
 "[draftist] published title": Logo
 "[draftist] published slug": logo-x9kc8w8sc
-"[draftist] published on": 1772183691026
+"[draftist] published on": 1779968645159
 ---
 The Logo section controls the main logo displayed in your site's header. You can use either text or an image. ^d019b6
 

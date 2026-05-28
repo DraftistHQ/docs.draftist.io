@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Intro
 "[draftist] published slug": intro-8xww3orev
-"[draftist] published on": 1772195591524
+"[draftist] published on": 1779968322812
 ---
 [Draftist](https://draftist.io) is a service for publishing personal websites using knowledge base apps as content sources. You write and organize content in your favorite app — we turn it into a live site. ^9f479a
 

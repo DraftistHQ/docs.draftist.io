@@ -1,14 +1,14 @@
 ---
-status: Draft
+status: Published
 description: How to install the Draftist plugin for Obsidian.
-posted on: ""
+posted on: 2026-02-27T15:35
 tags: []
 "[draftist] content kind": DocPage
 "[draftist] content id": 019c8fb1e7fb773f8b41662307169e0c
 "[draftist] position": 32768
 "[draftist] published title": Installation
 "[draftist] published slug": installation-oc5br7o44
-"[draftist] published on": 1772189531429
+"[draftist] published on": 1779969141513
 ---
 You'll need [Obsidian](https://obsidian.md) v1.11.4 or higher and a [Draftist](https://draftist.io) account. ^17c4ed
 
