@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 49152
 "[draftist] published title": Domains
 "[draftist] published slug": domains-ajx2ma539
-"[draftist] published on": 1779968492132
+"[draftist] published on": 1780168949199
 ---
 Every site needs a web address. Draftist gives you one automatically, and you can add your own custom domain on top. ^3a7c6d
 

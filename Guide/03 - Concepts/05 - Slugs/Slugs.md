@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 163840
 "[draftist] published title": Slugs
 "[draftist] published slug": slugs-950ltk09g
-"[draftist] published on": 1779968544511
+"[draftist] published on": 1780169036432
 ---
 A slug is the URL-friendly part of a content address. Draftist generates one automatically from the title, or you can set a custom slug if you like. ^1d9a6b
 
@@ -24,7 +24,8 @@ hello-world-a1b2c3d4e
 
 If you set a custom `slug` in the frontmatter, it replaces the auto-generated title portion. The ID is always appended. ^5b4e1f
 
-> [!info] The ID uniquely identifies each piece of content. In the future, you'll be able to use it as a short link — e.g. `your-site.com/a1b2c3d4e` — to share content.
+> [!info]
+> The ID uniquely identifies each piece of content. In the future, you'll be able to use it as a short link — e.g. `your-site.com/a1b2c3d4e` — to share content.
 ^19bbe2
 
 ## URL paths ^6c5f2a

@@ -8,5 +8,5 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Obsidian
 "[draftist] published slug": obsidian-mbtaqt24c
-"[draftist] published on": 1779969426869
+"[draftist] published on": 1780169343310
 ---

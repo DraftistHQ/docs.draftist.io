@@ -8,6 +8,6 @@ tags: []
 "[draftist] position": 98304
 "[draftist] published title": Copyright
 "[draftist] published slug": copyright-fwjyb0i98
-"[draftist] published on": 1779968656945
+"[draftist] published on": 1780169133144
 ---
 The Copyright section works just like Logo, but for the logo displayed in your site's footer. You can use text (site name or custom) or an image, with the same light/dark mode options. ^54dbac

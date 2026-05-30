@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 16384
 "[draftist] published title": Dashboard
 "[draftist] published slug": dashboard-wpfod5ao5
-"[draftist] published on": 1779968574998
+"[draftist] published on": 1780169083571
 ---
 The dashboard is your site's home page in the management panel. It shows a quick overview: current status, content provider, domain, and a shortcut to the configurator. ^b89337
 

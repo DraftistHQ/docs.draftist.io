@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Sites
 "[draftist] published slug": sites-liwo9c81q
-"[draftist] published on": 1779968477598
+"[draftist] published on": 1780168937413
 ---
 A site is a Draftist-powered website. Each site has its own address, configuration, and content — you write in Obsidian, and Draftist turns it into a live website. ^f290c9
 

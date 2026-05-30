@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 262144
 "[draftist] published title": Images
 "[draftist] published slug": images-6m05708v5
-"[draftist] published on": 1779969080546
+"[draftist] published on": 1780169173777
 ---
 The Images section controls what visitors see while images are loading. ^98dd95
 

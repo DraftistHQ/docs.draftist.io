@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 229376
 "[draftist] published title": Colors
 "[draftist] published slug": colors-p0lze509z
-"[draftist] published on": 1779969021028
+"[draftist] published on": 1780169165526
 ---
 The Colors section controls your site's color scheme and light/dark mode behavior. ^3d03c3
 

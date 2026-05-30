@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 131072
 "[draftist] published title": Code
 "[draftist] published slug": code-hz8xug3dc
-"[draftist] published on": 1779969331550
+"[draftist] published on": 1780169287512
 ---
 Use fenced code blocks with a language identifier for syntax highlighting: ^c1ec01
 

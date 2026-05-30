@@ -8,5 +8,5 @@ tags: []
 "[draftist] position": 98304
 "[draftist] published title": Concepts
 "[draftist] published slug": concepts-q3od8v241
-"[draftist] published on": 1779968559551
+"[draftist] published on": 1780169073809
 ---

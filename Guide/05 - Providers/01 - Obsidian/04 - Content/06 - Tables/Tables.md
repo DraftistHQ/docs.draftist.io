@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 196608
 "[draftist] published title": Tables
 "[draftist] published slug": tables-htjalgwh6
-"[draftist] published on": 1779969366976
+"[draftist] published on": 1780169305798
 ---
 Standard GFM (GitHub Flavored Markdown) tables work out of the box: ^c021b7
 

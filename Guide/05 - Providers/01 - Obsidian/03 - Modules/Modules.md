@@ -9,7 +9,7 @@ collapsed: true
 "[draftist] position": 98304
 "[draftist] published title": Modules
 "[draftist] published slug": modules-wqm29gbo7
-"[draftist] published on": 1779969238825
+"[draftist] published on": 1780169242645
 ---
 Modules are the building blocks of your site. Each module represents a type of content — a blog, documentation, etc. You configure modules in your site settings on Draftist, giving each one a name and a URL slug. ^baeb68
 

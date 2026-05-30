@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Docs
 "[draftist] published slug": docs-kbfv0qdbc
-"[draftist] published on": 1779969222751
+"[draftist] published on": 1780169230054
 ---
 > [!warning]
 > The Docs module is currently in private beta.

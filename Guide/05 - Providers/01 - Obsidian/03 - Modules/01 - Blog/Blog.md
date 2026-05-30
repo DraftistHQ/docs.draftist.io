@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Blog
 "[draftist] published slug": blog-20z7s2jqr
-"[draftist] published on": 1779969173413
+"[draftist] published on": 1780169219563
 ---
 The Blog module is your date-sorted feed — articles, updates, announcements, whatever you want to share. ^9f828f
 
