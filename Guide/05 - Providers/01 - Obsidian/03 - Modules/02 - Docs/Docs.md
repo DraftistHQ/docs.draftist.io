@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Docs
 "[draftist] published slug": docs-kbfv0qdbc
-"[draftist] published on": 1780169230054
+"[draftist] published on": 1781263952840
 ---
 > [!warning]
 > The Docs module is currently in private beta.
@@ -27,11 +27,21 @@ The Docs module is for structured content — guides, references, tutorials, or 
 
 ## Page Lifecycle ^c7afbd
 
-Every page has a `status` in its frontmatter: ^47d111
+Every page has a `status` in its frontmatter. Before a page goes live, this is mostly for organizing your writing workflow. After a page goes live, its public status is managed on Draftist and pulled back to Obsidian. ^47d111
 
 - **Draft** — work in progress, can be previewed on your site but not visible to readers. ^671658
 - **Published** — live on your site. ^f7ebe1
-- **Archived** — removed from public view. ^06729a
+- **Unpublished** — taken offline because it needs more work; publish it again when ready. ^960d4a
+- **Archived** — taken offline because it is no longer relevant; unarchive it if needed. ^06729a
+- **Deleted** — in trash on Draftist, scheduled for deletion; restore it or delete it permanently. If the page was permanently deleted on Draftist, the local note keeps `status: Deleted` but its Draftist metadata is removed. ^a4621d
+
+Once a page has gone live, manage its status on Draftist — use the toolbar on the preview site. To get there, run [`Draftist: Manage on Draftist` command](Commands.md#^b5e946). The plugin pulls the live status back to Obsidian. ^1ba83f
+
+> [!info]
+> **Unpublished** and **Archived** are both offline, but they mean different things. Use **Unpublished** when something went live too soon and still needs work. Use **Archived** when the content is no longer relevant and is expected to stay out of the live site.
+^30e3ac
+
+Doc pages also depend on their ancestors. If a parent page is unpublished, archived, or deleted, published child pages are hidden from the live site until the parent is restored. ^509b78
 
 ## Folder Structure ^f762d4
 
@@ -93,7 +103,7 @@ Here are the frontmatter fields the plugin manages: ^316bbb
 
 | Field         | Description                                                                 |
 | ------------- | --------------------------------------------------------------------------- |
-| `status`      | Page lifecycle stage: `Draft`, `Published`, or `Archived`                   |
+| `status`      | Page lifecycle stage: `Draft`, `Published`, `Unpublished`, `Archived`, or `Deleted` |
 | `description` | Short summary shown in SEO meta tags                                        |
 | `posted on`   | Publication date (`YYYY-MM-DD`). Auto-assigned on first publish if not set. |
 | `slug`        | Custom URL slug. Auto-generated from the title if not set.                  |
@@ -106,12 +116,12 @@ Here are the frontmatter fields the plugin manages: ^316bbb
 ^177ecf
 
 > [!warning]
-> The plugin also stores internal metadata in fields prefixed with `[draftist]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's sync state and cause publishing issues.
+> The plugin also stores internal metadata in fields prefixed with `[draftist]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's metadata state and cause publishing issues.
 ^02f8b4
 
 ## Publishing ^8d60dc
 
-When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your page and opens it in your browser on your site's preview domain so you can check it out before making it public. ^5a7633
+When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your page and opens it in your browser on your site's preview domain. Use the toolbar in that preview to publish the page or manage its availability. ^5a7633
 
 > [!warning]
 > If you use other third-party Obsidian plugins, the Obsidian team [recommends](https://help.obsidian.md/plugins/web-viewer#Security) using your primary browser for sensitive tasks and websites that require login instead of the web viewer for security reasons.
@@ -123,4 +133,8 @@ When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32
 
 Parent pages must be published before their children — the plugin will let you know if you try to publish a child whose parent isn't live yet. We'll make this one easier in the future. ^2460b3
 
-After publishing, when you return to the note, the plugin syncs the page's status and publication date back from your site. ^9b2377
+If the page links to content that is not published, Draftist warns you before publishing. You can publish anyway, but those links will be broken until the linked content is published. ^8331e0
+
+When unpublishing, archiving, or deleting a page, Draftist warns you if live content links to it or if child pages will also become unavailable. ^f9d941
+
+After publishing or changing availability, when you return to the note, the plugin pulls the page's status and publication date back from your site. If Draftist reports that the page no longer exists, the plugin removes local Draftist metadata and image metadata sidecars, keeps `status: Deleted`, and leaves the note in place. ^9b2377

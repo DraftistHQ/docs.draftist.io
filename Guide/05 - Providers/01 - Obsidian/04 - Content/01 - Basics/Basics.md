@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Basics
 "[draftist] published slug": basics-t15baju8k
-"[draftist] published on": 1780169256329
+"[draftist] published on": 1781120103137
 ---
 All the standard Markdown you know and love works out of the box. Here's a quick rundown. ^f1cc95
 
@@ -55,6 +55,10 @@ Link to other pages on your site using the same standard Markdown: ^0ba30b
 ^8ab0f8
 
 The plugin resolves internal links during publishing and checks that target pages exist. Deep links (using `#^block-id`) point straight to a specific element on the page. ^20e84e
+
+Draftist also checks whether linked content is available on the live site. When publishing content that links to unpublished, archived, deleted, or missing content, you'll see a warning. You can publish anyway, but the affected links will be broken until the target content is published. ^8a09c1
+
+When making published content unavailable, Draftist checks whether other live content links to it and asks you to review those links before continuing. ^503bf5
 
 ## Lists ^592a06
 

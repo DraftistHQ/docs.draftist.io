@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Getting Started
 "[draftist] published slug": getting-started-0kd7erv0j
-"[draftist] published on": 1780168914979
+"[draftist] published on": 1781120264862
 ---
 Here's the shortest path to getting your site up and running. ^552088
 
@@ -46,7 +46,7 @@ Create a new blog post in Obsidian using the [`Draftist: Create new blog post dr
 
 ## 6. Preview and publish ^5c899b
 
-Run [`Draftist: Preview and publish` command](Commands.md#^32ee3c) to push your draft to the site and preview it in the browser. When it looks good, publish it to make it live. ^4bed3a
+Run [`Draftist: Preview and publish` command](Commands.md#^32ee3c) to push your draft to the site and preview it in the browser. When it looks good, use the toolbar on the preview page to publish it and make it live. ^4bed3a
 
 ---
 

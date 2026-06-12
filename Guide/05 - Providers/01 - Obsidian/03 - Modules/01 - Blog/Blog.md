@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Blog
 "[draftist] published slug": blog-20z7s2jqr
-"[draftist] published on": 1780169219563
+"[draftist] published on": 1781263947271
 ---
 The Blog module is your date-sorted feed — articles, updates, announcements, whatever you want to share. ^9f828f
 
@@ -25,17 +25,19 @@ The Blog module is your date-sorted feed — articles, updates, announcements, w
 
 ## Post Lifecycle ^d784e1
 
-Every post has a `status` in its frontmatter that controls where it lives and whether it's public: ^7955e9
+Every post has a `status` in its frontmatter. Before a post goes live, this is mostly for organizing your writing workflow. After a post goes live, its public status is managed on Draftist and pulled back to Obsidian. ^7955e9
 
-- **Idea** — early stage, not publishable ^c458dd
+- **Idea** — early stage; basically, a TO-DO ^c458dd
 - **Draft** — work in progress, can be previewed on your site but not visible to readers ^0fc058
 - **Published** — live on your site ^e6395b
-- **Archived** — removed from public view ^bcdec4
+- **Unpublished** — taken offline because it needs more work; publish it again when ready ^8bfe65
+- **Archived** — taken offline because it is no longer relevant; unarchive it if needed ^bcdec4
+- **Deleted** — in trash on Draftist, scheduled for deletion; restore it or delete it permanently. If the post was permanently deleted on Draftist, the local note keeps `status: Deleted` but its Draftist metadata is removed. ^86d809
 
-To move a post between stages, just change the `status` field. The plugin automatically moves the file to the matching folder. ^4c5dc9
+Before a post has ever gone live, you can move between **Idea** and **Draft** by changing the `status` field. Once a post has gone live, manage its status on Draftist — use the dedicated toolbar on the preview site. To get there, run [`Draftist: Manage on Draftist` command](Commands.md#^b5e946). The plugin pulls the live status back to Obsidian and moves the file to the matching folder. ^4c5dc9
 
 > [!info]
-> Only **Published** and **Archived** statuses affect your site. Idea and Draft are just organizational labels for your writing process — treat them as suggestions. You can start everything as a Draft and ignore Ideas entirely if that suits your workflow. If there's demand, we're open to making pre-published statuses configurable so you can define your own.
+> **Unpublished** and **Archived** are both offline, but they mean different things. Use **Unpublished** when something went live too soon and still needs work. Use **Archived** when the content is no longer relevant and is expected to stay out of the live site.
 ^eba585
 
 ## Folder Structure ^8e840e
@@ -51,12 +53,18 @@ My Website/
     │   └── Post Title/
     ├── Published/
     │   └── 2025-12-19 - Post Title/
-    └── Archive/
-        └── 2025-06-01 - Post Title/
+    ├── Unpublished/
+    │   └── 2025-12-19 - Post Title/
+    ├── Archive/
+    │   └── 2025-06-01 - Post Title/
+    ├── Trash/
+    │   └── 2025-12-19 - Post Title/
+    └── Deleted/
+        └── 2025-12-19 - Post Title/
 ```
 ^78af08
 
-Posts with a `posted on` date get a date prefix in their folder name so they sort nicely. The `Blog` folder name matches the module name in your site settings. ^006bc0
+Posts with a `posted on` date get a date prefix in their folder name so they sort nicely. Unpublished posts stay separate from archived posts, so content that still needs action doesn't get mixed with the archive. Posts in Draftist trash go in `Trash/`; notes whose Draftist content was permanently deleted go in `Deleted/`. The `Blog` folder name matches the module name in your site settings. ^006bc0
 
 Each post lives in its own folder — the markdown file and all its assets are kept together: ^7f822e
 
@@ -93,7 +101,7 @@ Here are the frontmatter fields the plugin manages: ^5a79f9
 
 | Field               | Description                                                                 |
 | ------------------- | --------------------------------------------------------------------------- |
-| `status`            | Post lifecycle stage: `Idea`, `Draft`, `Published`, or `Archived`           |
+| `status`            | Post lifecycle stage: `Idea`, `Draft`, `Published`, `Unpublished`, `Archived`, or `Deleted` |
 | `description`       | Short excerpt shown in post listings and SEO meta tags                      |
 | `posted on`         | Publication date (`YYYY-MM-DD`). Auto-assigned on first publish if not set. |
 | `cover`             | Cover image filename or external URL                                        |
@@ -108,12 +116,12 @@ Here are the frontmatter fields the plugin manages: ^5a79f9
 ^5ba19d
 
 > [!warning]
-> The plugin also stores internal metadata in fields prefixed with `[draftist]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's sync state and cause publishing issues.
+> The plugin also stores internal metadata in fields prefixed with `[draftist]`. These are hidden by default — you'll only see them if you enable "Expose internal metadata" in the plugin's debugging settings. Don't edit them manually — changing these values can corrupt the plugin's metadata state and cause publishing issues.
 ^c9dda9
 
 ## Publishing ^01f896
 
-When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your post and opens it in your browser on your site's preview domain so you can check it out before making it public. ^c1d874
+When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32ee3c). The plugin saves a draft version of your post and opens it in your browser on your site's preview domain. Use the toolbar in that preview to publish the post or manage its availability. ^c1d874
 
 > [!warning]
 > If you use other third-party Obsidian plugins, the Obsidian team [recommends](https://help.obsidian.md/plugins/web-viewer#Security) using your primary browser for sensitive tasks and websites that require login instead of the web viewer for security reasons.
@@ -123,4 +131,8 @@ When you're ready, run [`Draftist: Preview and publish` command](Commands.md#^32
 > During publishing, the plugin adds block ID markers (like `^a1b2c3`) to every block in your post. We know they can be a bit noisy, but they power useful features: readers and other posts can link directly to a specific paragraph or heading, they enable automatic table of contents generation, and the server can diff changes between versions to show exactly what was updated. You can adjust their opacity or disable them entirely in the plugin settings — though we recommend keeping them on.
 ^55b563
 
-After publishing, when you return to the note, the plugin syncs the post's status and publication date back from your site. If you published a Draft, the `status` field updates to `Published` and a `posted on` date is filled in if it wasn't already set — which also triggers the folder automation, moving your post from `Drafts/` to `Published/`. ^d48119
+If the post links to content that is not published, Draftist warns you before publishing. You can publish anyway, but those links will be broken until the linked content is published. ^9cde4b
+
+When unpublishing, archiving, or deleting a post, Draftist warns you if live content links to it. ^5dcc54
+
+After publishing or changing availability, when you return to the note, the plugin pulls the post's status and publication date back from your site. If you published a Draft, the `status` field updates to `Published` and a `posted on` date is filled in if it wasn't already set — which also triggers the folder automation, moving your post to the matching folder. If Draftist reports that the post no longer exists, the plugin removes local Draftist metadata and image metadata sidecars, keeps `status: Deleted`, and moves the note to `Deleted/`. ^d48119

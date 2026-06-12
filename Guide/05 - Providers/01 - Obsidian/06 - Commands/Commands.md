@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 163840
 "[draftist] published title": Commands
 "[draftist] published slug": commands-e3ue59002
-"[draftist] published on": 1780169334862
+"[draftist] published on": 1781263865287
 ---
 All Draftist commands are available through Obsidian's command palette (summoned via `Ctrl/Cmd + P`). Some are also accessible via the file explorer context menu. ^6a0daf
 
@@ -19,7 +19,9 @@ These commands work with any content type — blog posts, doc pages, and any fut
 - **Insert image** — picks an image from your vault or filesystem, copies it into the content's `images/` folder, and inserts it at the cursor. ^4270d9
 - **Insert gallery** — same as above, but for multiple images arranged in a gallery layout. ^7279ab
 - **Normalize images** — moves images into the `images/` folder and normalizes filenames. ^70f98b
-- **Preview and publish** — uploads assets, publishes the current note as a draft, and opens a preview in the browser. ^32ee3c
+- **Preview and publish** — uploads assets, saves the current note as a Draftist draft, and opens a preview in the browser. Use the preview toolbar to publish or manage availability. ^32ee3c
+- **Manage on Draftist** — opens the current post or page on Draftist so you can publish, unpublish, archive, restore, or delete it. ^b5e946
+- **Pull metadata from Draftist** — refreshes the current note's Draftist status and publication metadata. If the content no longer exists on Draftist, local Draftist metadata and image metadata sidecars are removed. ^7ad34c
 - **Normalize frontmatter** — sorts frontmatter fields into a consistent order and adds any missing fields. ^dfb9ab
 
 ## Blog Module ^ae2d61
