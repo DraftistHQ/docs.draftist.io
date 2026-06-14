@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 163840
 "[draftist] published title": Commands
 "[draftist] published slug": commands-e3ue59002
-"[draftist] published on": 1781263865287
+"[draftist] published on": 1781451075711
 ---
 All Draftist commands are available through Obsidian's command palette (summoned via `Ctrl/Cmd + P`). Some are also accessible via the file explorer context menu. ^6a0daf
 

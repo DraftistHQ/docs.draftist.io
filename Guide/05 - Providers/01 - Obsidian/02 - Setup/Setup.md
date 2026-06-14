@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Setup
 "[draftist] published slug": setup-tgr6qth85
-"[draftist] published on": 1780169209658
+"[draftist] published on": 1781450956163
 ---
 After installing the plugin, open its settings in Obsidian (Settings → Draftist). You'll see a setup wizard that walks you through the initial configuration. ^0c85f4
 

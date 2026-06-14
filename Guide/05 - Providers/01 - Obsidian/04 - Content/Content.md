@@ -9,7 +9,7 @@ collapsed: true
 "[draftist] position": 131072
 "[draftist] published title": Content
 "[draftist] published slug": content-4z8tb65zm
-"[draftist] published on": 1780169316411
+"[draftist] published on": 1781450995907
 ---
 Draftist renders standard Markdown and adds a few extras. Just write in Obsidian — Draftist handles the rest. ^e1a152
 

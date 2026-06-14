@@ -1,5 +1,5 @@
 ---
-status: Draft
+status: Published
 description:
 posted on: ""
 tags: []
@@ -8,5 +8,5 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Obsidian
 "[draftist] published slug": obsidian-mbtaqt24c
-"[draftist] published on": 1780169343310
+"[draftist] published on": 1781450932777
 ---

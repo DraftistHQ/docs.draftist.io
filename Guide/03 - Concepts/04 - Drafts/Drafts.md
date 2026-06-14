@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 131072
 "[draftist] published title": Drafts
 "[draftist] published slug": drafts-p89gllvrl
-"[draftist] published on": 1781113324279
+"[draftist] published on": 1781449752296
 ---
 Content and site configuration in Draftist use a draft-first workflow. You edit a draft, preview it, and push it live when you're ready. ^e8b7c4
 

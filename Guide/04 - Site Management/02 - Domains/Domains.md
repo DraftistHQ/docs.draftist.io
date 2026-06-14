@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Domains
 "[draftist] published slug": domains-8ljt1nos4
-"[draftist] published on": 1780169094495
+"[draftist] published on": 1781450252063
 ---
 The domains page lists all addresses for your site — your platform address and any custom domains you've added. From here, you can add new domains, check verification status, and choose which address is primary. ^1f7fec
 

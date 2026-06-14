@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 131072
 "[draftist] published title": Icons
 "[draftist] published slug": icons-7wg28mp0o
-"[draftist] published on": 1780169141195
+"[draftist] published on": 1781450861429
 ---
 The Icons section lets you upload two assets: ^416751
 

@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": General
 "[draftist] published slug": general-bjr6h9tpz
-"[draftist] published on": 1780169115496
+"[draftist] published on": 1781450826131
 ---
 The General section covers your site's core identity — the details that show up in browser tabs, search results, and social media previews. ^8175b7
 

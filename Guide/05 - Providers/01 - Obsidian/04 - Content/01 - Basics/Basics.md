@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Basics
 "[draftist] published slug": basics-t15baju8k
-"[draftist] published on": 1781120103137
+"[draftist] published on": 1781451006147
 ---
 All the standard Markdown you know and love works out of the box. Here's a quick rundown. ^f1cc95
 

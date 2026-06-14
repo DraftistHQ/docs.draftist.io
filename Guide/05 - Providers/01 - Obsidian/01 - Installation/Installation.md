@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Installation
 "[draftist] published slug": installation-oc5br7o44
-"[draftist] published on": 1780169201130
+"[draftist] published on": 1781450947193
 ---
 You'll need [Obsidian](https://obsidian.md) v1.11.4 or higher and a [Draftist](https://draftist.io) account. ^17c4ed
 

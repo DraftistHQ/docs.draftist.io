@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 147456
 "[draftist] published title": Settings
 "[draftist] published slug": settings-uk45m1cnu
-"[draftist] published on": 1780169326280
+"[draftist] published on": 1781451067234
 ---
 The Draftist plugin settings are accessible through Obsidian's Settings → Community Plugins → Draftist. Settings are organized into several sections. ^836a1d
 

@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 163840
 "[draftist] published title": Slugs
 "[draftist] published slug": slugs-950ltk09g
-"[draftist] published on": 1780169036432
+"[draftist] published on": 1781449763345
 ---
 A slug is the URL-friendly part of a content address. Draftist generates one automatically from the title, or you can set a custom slug if you like. ^1d9a6b
 

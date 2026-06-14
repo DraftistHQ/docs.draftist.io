@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 163840
 "[draftist] published title": Callouts
 "[draftist] published slug": callouts-52ak954te
-"[draftist] published on": 1780169297194
+"[draftist] published on": 1781451046191
 ---
 Callouts are colored boxes that highlight important information. Blockquotes are for quotations. ^89afdc
 

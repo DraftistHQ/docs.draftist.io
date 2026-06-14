@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Modules
 "[draftist] published slug": modules-fhl66wos2
-"[draftist] published on": 1780168962233
+"[draftist] published on": 1781449738640
 ---
 Modules are the building blocks of a [site](Sites.md). Each module adds a different content structure — you pick the ones that fit what you're publishing. ^a3c7d2
 

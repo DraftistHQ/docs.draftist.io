@@ -1,5 +1,5 @@
 ---
-status: Draft
+status: Published
 description:
 posted on: ""
 tags: []
@@ -8,5 +8,5 @@ tags: []
 "[draftist] position": 98304
 "[draftist] published title": Concepts
 "[draftist] published slug": concepts-q3od8v241
-"[draftist] published on": 1780169073809
+"[draftist] published on": 1781449612245
 ---

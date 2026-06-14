@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Modules
 "[draftist] published slug": modules-kjqhj61dr
-"[draftist] published on": 1780169103746
+"[draftist] published on": 1781450267632
 ---
 The modules page lists all modules on your site. Each card shows the module type (Blog, Docs, etc.), its name, and its live URL. ^287f2c
 

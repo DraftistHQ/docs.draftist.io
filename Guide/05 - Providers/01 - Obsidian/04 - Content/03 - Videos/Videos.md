@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 98304
 "[draftist] published title": Videos
 "[draftist] published slug": videos-3sili94m5
-"[draftist] published on": 1780169277473
+"[draftist] published on": 1781451026948
 ---
 For now, Draftist supports only YouTube embeds. Internal video support is on the way. ^e094e0
 

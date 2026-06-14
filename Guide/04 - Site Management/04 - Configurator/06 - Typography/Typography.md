@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 196608
 "[draftist] published title": Typography
 "[draftist] published slug": typography-jxaxpid86
-"[draftist] published on": 1780169157830
+"[draftist] published on": 1781450880077
 ---
 The Typography section controls the fonts used across your site. There are three font faces: ^52f6f1
 
