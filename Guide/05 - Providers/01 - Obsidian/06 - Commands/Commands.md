@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 163840
 "[draftist] published title": Commands
 "[draftist] published slug": commands-e3ue59002
-"[draftist] published on": 1781451075711
+"[draftist] published on": 1781690476950
 ---
 All Draftist commands are available through Obsidian's command palette (summoned via `Ctrl/Cmd + P`). Some are also accessible via the file explorer context menu. ^6a0daf
 
@@ -21,6 +21,7 @@ These commands work with any content type — blog posts, doc pages, and any fut
 - **Normalize images** — moves images into the `images/` folder and normalizes filenames. ^70f98b
 - **Preview and publish** — uploads assets, saves the current note as a Draftist draft, and opens a preview in the browser. Use the preview toolbar to publish or manage availability. ^32ee3c
 - **Manage on Draftist** — opens the current post or page on Draftist so you can publish, unpublish, archive, restore, or delete it. ^b5e946
+- **Open live version** — opens the live post or doc page on your site. Available only for published content. ^678bfd
 - **Pull metadata from Draftist** — refreshes the current note's Draftist status and publication metadata. If the content no longer exists on Draftist, local Draftist metadata and image metadata sidecars are removed. ^7ad34c
 - **Normalize frontmatter** — sorts frontmatter fields into a consistent order and adds any missing fields. ^dfb9ab
 
