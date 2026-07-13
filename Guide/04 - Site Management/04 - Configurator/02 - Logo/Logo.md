@@ -22,6 +22,6 @@ Upload an image to replace the text logo. If your site uses switchable light/dar
 
 Image logos have additional controls: ^e5d96f
 
-- **Scale** — adjusts the logo size ^df8d16
+- **Size** — adjusts the logo size ^df8d16
 - **Horizontal placement** — shifts the logo left or right ^ceae52
 - **Vertical placement** — shifts the logo up or down ^88ab56
