@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 65536
 "[draftist] published title": Logo
 "[draftist] published slug": logo-x9kc8w8sc
-"[draftist] published on": 1781450839797
+"[draftist] published on": 1784742147918
 ---
 The Logo section controls the main logo displayed in your site's header. You can use either text or an image. ^d019b6
 
