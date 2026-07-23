@@ -8,7 +8,7 @@ tags: []
 "[draftist] position": 32768
 "[draftist] published title": Blog
 "[draftist] published slug": blog-20z7s2jqr
-"[draftist] published on": 1781450975708
+"[draftist] published on": 1784823470731
 ---
 The Blog module is your date-sorted feed — articles, updates, announcements, whatever you want to share. ^9f828f
 
@@ -18,6 +18,8 @@ The Blog module is your date-sorted feed — articles, updates, announcements, w
   The filename of the note. You'll be asked for it when creating a post via the plugin commands. ^4ba507
 - **Description**
   A short summary set in the `description` field of the frontmatter. It doesn't appear in the post body itself, but it shows up everywhere else: in the list of posts on your site, in search engine results, and in social media previews when someone shares your link. A good description makes your publication look polished and helps readers decide whether to click through — don't skip it! ^9d1ac8
+- **Favorite**
+  Set `favorite: true` to highlight a post with a star in post listings and the post page. ^83deb5
 - **Cover**
   An optional image is displayed at the top of the post, in post listings, and used as an OG image. Can be a vault image or an external URL. Although we highly recommend using internal images. Use [`Draftist: Set cover image` command](Commands.md#^ae2d61) to set it, with optional credit text and link for attribution. ^86d3cf
 - **Body**
@@ -104,6 +106,7 @@ Here are the frontmatter fields the plugin manages: ^5a79f9
 | `status`            | Post lifecycle stage: `Idea`, `Draft`, `Published`, `Unpublished`, `Archived`, or `Deleted` |
 | `description`       | Short excerpt shown in post listings and SEO meta tags                      |
 | `posted on`         | Publication date (`YYYY-MM-DD`). Auto-assigned on first publish if not set. |
+| `favorite`          | Whether to highlight the post with a favorite star (`true` or `false`)      |
 | `cover`             | Cover image filename or external URL                                        |
 | `cover credit text` | Attribution text for the cover image                                        |
 | `cover credit link` | Attribution link for the cover image                                        |
